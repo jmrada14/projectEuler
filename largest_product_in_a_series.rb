@@ -28,7 +28,7 @@ input = "
 71636269561882670428252483600823257530420752963450"
 
 fixed_input = input.gsub(/\s+/, '')
-#p fixed_input
+# p fixed_input
 cons_nums = fixed_input.chars.map(&:to_i).each_cons(13)
 sol = cons_nums.map { |seq| seq.reduce(:*) }.max
 p sol
