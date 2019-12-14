@@ -7,5 +7,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="linguistics (v2.1.0, ruby-2.5.5-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="loggability (v0.14.0, ruby-2.5.5-p157) [gem]" level="application" />
   </component>
 </module>
