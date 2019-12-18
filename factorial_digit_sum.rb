@@ -6,8 +6,5 @@
 def factorial(int)
   (1..int).inject(:*)
 end
-
-sol = 0
-x = factorial(100).to_s.each_char.map(&:to_i)
-x.each { |i| sol += i }
+sol = factorial(100).to_s.each_char.map(&:to_i).reduce(:+)
 p sol
