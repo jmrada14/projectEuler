@@ -7,12 +7,10 @@
 
 array = (1..999).to_a
 new_array = []
-solution = 0
 array.each do |i|
   new_array.push(i) if (i % 3).zero? || (i % 5).zero?
 end
-new_array.each { |j| solution += j }
-
+solution = new_array.reduce(:+)
 puts(solution)
 
 
