@@ -4,6 +4,7 @@
 fn main() {
     let f = &[3, 5];
     println!("{}", sum_of_multiples(1000, f));
+    // 233168
 }
 
 pub fn sum_of_multiples(limit: u32, factors: &[u32]) -> u32 {
